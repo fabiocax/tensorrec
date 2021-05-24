@@ -6,7 +6,7 @@ import os
 import pickle
 from scipy import sparse as sp
 import tensorflow as tf
-
+import tensorflow.compat.v1 as tf
 from .errors import (
     ModelNotBiasedException, ModelNotFitException, ModelWithoutAttentionException, BatchNonSparseInputException,
     TfVersionException

@@ -1,6 +1,6 @@
 import abc
 import tensorflow as tf
-
+import tensorflow.compat.v1 as tf
 
 class AbstractLossGraph(object):
     __metaclass__ = abc.ABCMeta
